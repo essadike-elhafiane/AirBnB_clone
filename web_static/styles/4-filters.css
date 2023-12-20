@@ -1,0 +1,30 @@
+
+.filters
+{
+    color: white;
+    height: 70px;
+    width: 100%;
+    border-radius: border 1px #DDDDDD  4px;
+    display: flex;
+    justify-content:space-between;
+}
+
+#button{
+    font-size: 18px;
+    background-color:#FF5A5F ;
+    color: #FFFFFF;
+    width: 20%;
+    height: 48px;
+    border: transparent;
+    border-radius: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+#button:hover{
+    opacity: 90%;
+    color: aqua;
+}
